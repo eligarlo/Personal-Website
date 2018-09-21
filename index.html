@@ -14,10 +14,11 @@
 </head>
 
 <body>
+
     <nav class="navbar navbar-dark bg-dark navbar-expand-md" role="navigation">
-        <div class="container-fluid">
-            <a class="navbar-brand lead" href="/"><img class="mr-3" src="img/Logo elig@rlo.png" alt="My Logo" width="40"
-                    height="40">elig@rlo</a>
+        <div class="container">
+            <a class="navbar-brand lead" href="index.html"><img class="mr-2" src="img/Logo elig@rlo.png" alt="My Logo"
+                    width="40" height="40">elig@rlo</a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#globalNav" aria-controls="globalNav"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -27,7 +28,7 @@
             <div class="collapse navbar-collapse" id="globalNav">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link lead" href="/"><strong>Home</strong></a>
+                        <a class="nav-link lead" href="index.html"><strong>Home</strong></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link lead" href="/"><strong>Portfolio</strong></a>
@@ -40,7 +41,7 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Networks
+                            My Networks
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="https://github.com/eligarlo">GitHub</a>
@@ -54,15 +55,47 @@
     </nav>
 
     <main class="container mt-3">
-        <h1>Welcome to my personal website!</h1>
-        <p class="lead">I am web developer, designer, and just a good person.</p>
+        <div class="row">
+            <article class="col-md-8">
+                <h1>Welcome to my personal website!</h1>
+                <p class="lead">I am web developer, designer, and just a good person.</p>
 
+                <div class="row">
+                    <blockquote class="blockquote col-md">
+                        <p class="mb-0">He is a grat dev.</p>
+                        <footer class="blockquote-footer"><cite title="My Wife">My Wife</cite></footer>
+                    </blockquote>
+
+                    <blockquote class="blockquote col-md">
+                        <p class="mb-0">Awesome Person.</p>
+                        <footer class="blockquote-footer"><cite title="My Friend">My Friend</cite></footer>
+                    </blockquote>
+
+                    <blockquote class="blockquote col-md">
+                        <p class="mb-0">Who's that?...</p>
+                        <footer class="blockquote-footer"><cite title="A stranger">A stranger</cite></footer>
+                    </blockquote>
+                </div>
+            </article>
+
+            <aside class="col-md-4">
+                <h3>Recent Post</h3>
+                <ul>
+                    <li><a href="#">Post 1</a></li>
+                    <li><a href="#">Post 2</a></li>
+                    <li><a href="#">Post 3</a></li>
+                    <li><a href="#">Post 4</a></li>
+                </ul>
+            </aside>
+        </div>
     </main>
+
     <footer class="footer">
         <div class="container">
             <span class="text-muted">&copy; 2018 Eliahu Garcia Lozano LLC.</span>
         </div>
     </footer>
+
     <!-- content... -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
