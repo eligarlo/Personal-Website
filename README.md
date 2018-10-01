@@ -7,3 +7,4 @@ https://eligarlo.github.io/Website-with-Bootstrap-4-Email-Course/
 - Lesson 3: Using Cards to Organize Content
 - Lesson 4: Styling Forms
 - Lesson 5: Creating a Cozy Blog
+- Lesson 6: Creating a Blog Entry Page
