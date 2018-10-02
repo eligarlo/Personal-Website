@@ -1,9 +1,27 @@
+/* Google fonts, 'Oswald', 'Montserrat' */
+
+.body-color {
+    background-color: #d8dce2;
+}
+.carousel-quote {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    color: black;
+}
+.carousel-img {
+    opacity: 0.8;
+}
 .carousel-caption-top {
+    /* Text at top of the caption */
     top: 0;
     bottom: auto;
 }
-
 .post-body {
+    /* Scroll at blog_post */
     height: 400px;
     overflow-y: auto;
+}
+.custom-control-label::before {
+    /* Custom-Checkbox at Contact me */
+    background-color: #FFFFFF;
 }
